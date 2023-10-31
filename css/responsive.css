@@ -5,7 +5,9 @@
     .navbar{
         height: 447px;
         flex-direction: column;
-        transition: all 0.7s ease-out;
+        /* transition: all 0.1s ease-in-out; */
+        transform-origin: 0% 0%;
+        transition: transform 0.2s ease-in-out;
     }
     .rightNav{
         text-align: center;
